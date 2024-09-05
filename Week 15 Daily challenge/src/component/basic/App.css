@@ -1,0 +1,40 @@
+/* src/TaskManager.css */
+
+.task-manager {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+  }
+  
+  .filters button {
+    margin: 0 5px;
+  }
+  
